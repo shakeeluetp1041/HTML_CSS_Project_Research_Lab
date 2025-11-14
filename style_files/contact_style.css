@@ -28,7 +28,7 @@ nav a.active {
 }
 .contact-section p {
   margin: 20px 0px 30px 0px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .contact-section a {
   display: inline;
@@ -43,6 +43,6 @@ nav a.active {
 
 strong {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   padding-left: 20px;
 }

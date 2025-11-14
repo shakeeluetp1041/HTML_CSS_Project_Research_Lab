@@ -1,0 +1,50 @@
+header {
+  display: flex;                  /* horizontal layout */
+  justify-content: space-between; /* Distribute items horizontally: first item left, last item right, others evenly spaced */
+  align-items: center;            /* Align items vertically in the center of the container */
+  padding: 0 60px 0 60px;         /* 60px space on left and right sides */
+  
+}
+
+nav{
+    display: flex;                  /* horizontal layout */
+    background-color: black;      /* nav background */
+    justify-content: space-between; /* Distribute items horizontally: first item left, last item right, others evenly spaced */
+    align-items: center;            /* Align items vertically in the center of the container */
+    padding: 0 60px 0 60px;         /* 60px space on left and right sides */
+    margin-top: 20px;
+
+}
+
+a {
+    color: white;                /* link color */
+    padding: 20px 15px 20px 15px;  /* spacing around links */
+    display: inline-block;         /* optional, works with flex */
+    font-size: 20px;
+    text-decoration: none;       /* remove underline from links */
+}
+
+nav a.active {
+  background-color: #555;
+  border:2px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Background below navbar */
+.main-content {
+  background-image: url('../images/main_page/background.jfif');/*.. represernts go one step above and then find /images/main_page/background.jfif*/
+  background-size: cover;       /* cover entire div */
+  padding: 50px 20px;           /* spacing inside content */
+  min-height: calc(100vh - 60px); fill screen below navbar if needed 
+ 
+}
+
+.main-content h1 {
+  color: white;
+}
+
+.main-content p {
+  color: white;
+  font-size: 20px;
+}

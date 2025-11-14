@@ -1,0 +1,32 @@
+nav {
+  display: flex; /* horizontal layout */
+  background-color: black; /* nav background */
+  justify-content: space-between; /* Distribute items horizontally: first item left, last item right, others evenly spaced */
+  align-items: center; /* Align items vertically in the center of the container */
+  padding: 0 60px 0 60px; /* 60px space on left and right sides */
+  margin-top: 20px;
+}
+
+a {
+  color: white; /* link color */
+  padding: 20px 15px 20px 15px; /* spacing around links */
+  display: inline-block; /* optional, works with flex */
+  font-size: 20px;
+  text-decoration: none; /* remove underline from links */
+}
+nav a.active {
+  background-color: #555;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.team-members-container {
+  display: flex;
+  background-color: lightgrey;
+  justify-content: space-between; /* Distribute items horizontally: first item left, last item right, others evenly spaced */
+  align-items: center; /* Align items vertically in the center of the container */
+  padding: 20px 60px 20px 60px; /* 60px space on left and right sides */
+  margin-top: 0px;
+  margin-bottom: 30px;
+}

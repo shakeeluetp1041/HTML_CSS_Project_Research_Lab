@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 nav{
     display: flex;                  /* horizontal layout */
     background-color: black;      /* nav background */
@@ -21,4 +26,19 @@ nav a.active {
   border:2px solid white;
   border-radius: 10px;
   font-weight: bold;
+}
+
+.teaching-tab h2,.teaching-tab h3
+{
+margin-top: 20px;
+    padding-left: 40px;
+}
+.teaching-tab ul
+{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+.teaching-tab li
+{
+    margin-top: 10px;
 }

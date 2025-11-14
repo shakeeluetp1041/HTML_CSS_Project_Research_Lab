@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 header {
   display: flex;                  /* horizontal layout */
   justify-content: space-between; /* Distribute items horizontally: first item left, last item right, others evenly spaced */

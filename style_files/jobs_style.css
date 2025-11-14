@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 nav{
     display: flex;                  /* horizontal layout */
     background-color: black;      /* nav background */
@@ -21,4 +26,15 @@ nav a.active {
   border:2px solid white;
   border-radius: 10px;
   font-weight: bold;
+}
+
+.job-offer h2,.job-offer h3, .job-offer p
+{
+    margin-top: 20px;
+    padding-left: 40px;
+
+}
+.job-offer li{
+    margin-top: 20px;
+    padding-left: 60px;
 }
